@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="29,839.620 ns"></ZoomStartTime>
+      <ZoomEndTime time="30,825.621 ns"></ZoomEndTime>
+      <Cursor1Time time="30,239.620 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="242"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="38" />
+   <wvobject fp_name="/tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/rf_addr" type="array">
+      <obj_property name="ElementShortName">rf_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/mem_addr" type="array">
+      <obj_property name="ElementShortName">mem_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/mem_data" type="array">
+      <obj_property name="ElementShortName">mem_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/rf_data" type="array">
+      <obj_property name="ElementShortName">rf_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/IF_inst" type="array">
+      <obj_property name="ElementShortName">IF_inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/IF_pc" type="array">
+      <obj_property name="ElementShortName">IF_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/ID_pc" type="array">
+      <obj_property name="ElementShortName">ID_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/EXE_pc" type="array">
+      <obj_property name="ElementShortName">EXE_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EXE_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/MEM_pc" type="array">
+      <obj_property name="ElementShortName">MEM_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/WB_pc" type="array">
+      <obj_property name="ElementShortName">WB_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WB_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/display_state" type="array">
+      <obj_property name="ElementShortName">display_state[31:0]</obj_property>
+      <obj_property name="ObjectShortName">display_state[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reg0" type="array">
+      <obj_property name="ElementShortName">reg0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reg1" type="array">
+      <obj_property name="ElementShortName">reg1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reg2" type="array">
+      <obj_property name="ElementShortName">reg2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reg3" type="array">
+      <obj_property name="ElementShortName">reg3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reg4" type="array">
+      <obj_property name="ElementShortName">reg4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reg5" type="array">
+      <obj_property name="ElementShortName">reg5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg5[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reg6" type="array">
+      <obj_property name="ElementShortName">reg6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg6[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reg7" type="array">
+      <obj_property name="ElementShortName">reg7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg7[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reg8" type="array">
+      <obj_property name="ElementShortName">reg8[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg8[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reg9" type="array">
+      <obj_property name="ElementShortName">reg9[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg9[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reg10" type="array">
+      <obj_property name="ElementShortName">reg10[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg10[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reg11" type="array">
+      <obj_property name="ElementShortName">reg11[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg11[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reg12" type="array">
+      <obj_property name="ElementShortName">reg12[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg12[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reg13" type="array">
+      <obj_property name="ElementShortName">reg13[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg13[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reg14" type="array">
+      <obj_property name="ElementShortName">reg14[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg14[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reg15" type="array">
+      <obj_property name="ElementShortName">reg15[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg15[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/ID_EXE_bus" type="array">
+      <obj_property name="ElementShortName">ID_EXE_bus[149:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EXE_bus[149:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/alu_control" type="array">
+      <obj_property name="ElementShortName">alu_control[11:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_control[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/alu_operand1" type="array">
+      <obj_property name="ElementShortName">alu_operand1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_operand1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/alu_operand2" type="array">
+      <obj_property name="ElementShortName">alu_operand2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_operand2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/mem_control" type="array">
+      <obj_property name="ElementShortName">mem_control[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_control[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/store_data" type="array">
+      <obj_property name="ElementShortName">store_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">store_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/rf_wen" type="logic">
+      <obj_property name="ElementShortName">rf_wen</obj_property>
+      <obj_property name="ObjectShortName">rf_wen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/rf_wdest" type="array">
+      <obj_property name="ElementShortName">rf_wdest[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_wdest[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/pc_in_ID_EXE" type="array">
+      <obj_property name="ElementShortName">pc_in_ID_EXE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_in_ID_EXE[31:0]</obj_property>
+   </wvobject>
+</wave_config>

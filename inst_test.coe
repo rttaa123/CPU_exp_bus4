@@ -1,0 +1,14 @@
+; Initialization file for a
+; 32-bit wide ROM
+memory_initialization_radix = 16;
+memory_initialization_vector =
+24010000
+24020001
+24030065
+24051000
+00432023
+04810003
+00220821
+24420001
+08000004
+ACA10000
