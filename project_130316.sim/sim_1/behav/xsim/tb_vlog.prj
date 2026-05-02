@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_130316.gen/sources_1/ip/data_ram/sim/data_ram.v" \
+"../../../../project_130316.gen/sources_1/ip/inst_rom_1/sim/inst_rom.v" \
+"../../../../project_130316.srcs/sources_1/imports/2025/7_multi_cycle_cpu/adder.v" \
+"../../../../project_130316.srcs/sources_1/imports/2025/7_multi_cycle_cpu/alu.v" \
+"../../../../project_130316.srcs/sources_1/imports/2025/7_multi_cycle_cpu/decode.v" \
+"../../../../project_130316.srcs/sources_1/imports/2025/7_multi_cycle_cpu/exe.v" \
+"../../../../project_130316.srcs/sources_1/imports/2025/7_multi_cycle_cpu/fetch.v" \
+"../../../../project_130316.srcs/sources_1/imports/2025/7_multi_cycle_cpu/mem.v" \
+"../../../../project_130316.srcs/sources_1/imports/2025/7_multi_cycle_cpu/multi_cycle_cpu.v" \
+"../../../../project_130316.srcs/sources_1/imports/2025/7_multi_cycle_cpu/regfile.v" \
+"../../../../project_130316.srcs/sources_1/imports/2025/7_multi_cycle_cpu/wb.v" \
+"../../../../project_130316.srcs/sim_1/imports/7_multi_cycle_cpu/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

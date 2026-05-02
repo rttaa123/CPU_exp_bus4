@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Mar 30 18:45:14 2025
+# Process ID: 38420
+# Current directory: D:/FPGA/2025/MultiCycleCPU/MultiCycleCPU/project_130316.runs/data_ram_synth_1
+# Command line: vivado.exe -log data_ram.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source data_ram.tcl
+# Log file: D:/FPGA/2025/MultiCycleCPU/MultiCycleCPU/project_130316.runs/data_ram_synth_1/data_ram.vds
+# Journal file: D:/FPGA/2025/MultiCycleCPU/MultiCycleCPU/project_130316.runs/data_ram_synth_1\vivado.jou
+# Running On        :Raott
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :AMD Ryzen 7 6800H with Radeon Graphics         
+# CPU Frequency     :3194 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :16389 MB
+# Swap memory       :19327 MB
+# Total Virtual     :35716 MB
+# Available Virtual :10785 MB
+#-----------------------------------------------------------
+source data_ram.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 530.695 ; gain = 199.316
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: data_ram
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry a30bb33f694b31ec to dir: D:/FPGA/2025/MultiCycleCPU/MultiCycleCPU/project_130316.runs/data_ram_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/2025/MultiCycleCPU/MultiCycleCPU/project_130316.cache/ip/2024.1/a/3/a30bb33f694b31ec/data_ram.dcp to D:/FPGA/2025/MultiCycleCPU/MultiCycleCPU/project_130316.runs/data_ram_synth_1/data_ram.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/2025/MultiCycleCPU/MultiCycleCPU/project_130316.cache/ip/2024.1/a/3/a30bb33f694b31ec/data_ram_sim_netlist.v to D:/FPGA/2025/MultiCycleCPU/MultiCycleCPU/project_130316.runs/data_ram_synth_1/data_ram_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/2025/MultiCycleCPU/MultiCycleCPU/project_130316.cache/ip/2024.1/a/3/a30bb33f694b31ec/data_ram_sim_netlist.vhdl to D:/FPGA/2025/MultiCycleCPU/MultiCycleCPU/project_130316.runs/data_ram_synth_1/data_ram_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/2025/MultiCycleCPU/MultiCycleCPU/project_130316.cache/ip/2024.1/a/3/a30bb33f694b31ec/data_ram_stub.v to D:/FPGA/2025/MultiCycleCPU/MultiCycleCPU/project_130316.runs/data_ram_synth_1/data_ram_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/2025/MultiCycleCPU/MultiCycleCPU/project_130316.cache/ip/2024.1/a/3/a30bb33f694b31ec/data_ram_stub.vhdl to D:/FPGA/2025/MultiCycleCPU/MultiCycleCPU/project_130316.runs/data_ram_synth_1/data_ram_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP data_ram, cache-ID = a30bb33f694b31ec.
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 30 18:45:33 2025...

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Mar 30 18:45:14 2025
+# Process ID: 38420
+# Current directory: D:/FPGA/2025/MultiCycleCPU/MultiCycleCPU/project_130316.runs/data_ram_synth_1
+# Command line: vivado.exe -log data_ram.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source data_ram.tcl
+# Log file: D:/FPGA/2025/MultiCycleCPU/MultiCycleCPU/project_130316.runs/data_ram_synth_1/data_ram.vds
+# Journal file: D:/FPGA/2025/MultiCycleCPU/MultiCycleCPU/project_130316.runs/data_ram_synth_1\vivado.jou
+# Running On        :Raott
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :AMD Ryzen 7 6800H with Radeon Graphics         
+# CPU Frequency     :3194 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :16389 MB
+# Swap memory       :19327 MB
+# Total Virtual     :35716 MB
+# Available Virtual :10785 MB
+#-----------------------------------------------------------
+source data_ram.tcl -notrace
